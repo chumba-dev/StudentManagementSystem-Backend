@@ -1,0 +1,11 @@
+Job portal: courses, jobs, role auth, OpenAPI, migrations
+
+Major backend expansion for job portal features:
+- Added job posting, application, and course-job recommendation models and controllers
+- Expanded Course model with new fields and DTOs
+- Implemented role-based authorization for all endpoints
+- Updated Swagger/OpenAPI config for JWT Bearer support
+- Added migrations for new schema and seeded initial data
+- JWT tokens now include user roles; registration assigns roles
+- Added CORS policy and admin utility scripts
+- Cleaned up obsolete migrations and fixed OpenAPI build errors

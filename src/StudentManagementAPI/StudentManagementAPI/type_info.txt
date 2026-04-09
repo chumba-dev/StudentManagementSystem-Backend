@@ -1,0 +1,1 @@
+﻿Constructor: String referenceId, OpenApiDocument hostDocument, String externalResource
